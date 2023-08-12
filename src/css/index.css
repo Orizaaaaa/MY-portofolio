@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inter:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500&display=swap');
+
+
+/* font-family: 'Hurricane', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    padding: 0 20px;
+    background-color: #232946 !important;
+}
+
+nav ul li a {
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .navbar-brand {
+    width: 50px;
+    color: #33BBDD;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .navbar-brand p {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.main .row .col h1 {
+    font-family: 'Hurricane', cursive;
+    font-size: 90px;
+    color: #33BBDD;
+}
