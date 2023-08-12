@@ -13,15 +13,20 @@ body {
 nav ul li a {
     color: white !important;
     font-family: 'Poppins', sans-serif;
+
 }
 
-nav .navbar-brand {
+
+nav .portofolio {
     width: 50px;
     color: #33BBDD;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+
 }
 
-nav .navbar-brand p {
+nav .portofolio p {
     font-size: 15px;
     color: #FFFFFF;
 }
