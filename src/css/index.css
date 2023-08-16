@@ -26,13 +26,21 @@ nav .portofolio {
 
 }
 
+nav .navbar-collapse button {
+    background-color: #33BBDD !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px
+}
+
 nav .portofolio p {
     font-size: 15px;
     color: #FFFFFF;
 }
 
+
 .main .intro {
-    margin-top: 130px;
+    min-height: 85vh;
 }
 
 .main .row .col h1 {
@@ -53,4 +61,13 @@ nav .portofolio p {
     color: #FFFFFF;
     font-weight: 100;
     font-size: 70px;
+}
+
+.main .row .col {
+    display: grid;
+    justify-content: center;
+}
+
+.main .row .col:nth-child(2) img {
+    height: 530px;
 }
