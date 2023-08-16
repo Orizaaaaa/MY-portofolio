@@ -37,11 +37,12 @@ function App() {
       </nav>
 
       <section className="main" >
-        <div className="row">
+        <div className="row intro">
           <div className="col">
             <h1>Introduce Myself</h1>
+            <h2>Oriza Sativa</h2>
+            <h3> <i>Front End Developer</i> </h3>
           </div>
-
           <div className="col">
 
           </div>
