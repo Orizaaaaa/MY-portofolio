@@ -8,6 +8,7 @@ font-family: 'Poppins', sans-serif; */
 body {
     padding: 0 20px;
     background-color: #232946 !important;
+    height: 9000px;
 }
 
 nav ul li a {
@@ -37,6 +38,32 @@ nav .portofolio p {
     font-size: 15px;
     color: #FFFFFF;
 }
+
+nav .navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #33BBDD !important;
+
+}
+
+nav .navbar-collapse .navbar-nav .nav-item a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #33BBDD;
+    transition: width .3s;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item a:hover::after {
+    width: 100%;
+
+}
+
+/* nav .navbar-collapse .navbar-nav .nav-item a.active {
+    color: #33BBDD !important;
+    font-weight: 500;
+} */
+
+
 
 
 .main .intro {
