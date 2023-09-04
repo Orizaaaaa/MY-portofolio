@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif; */
 body {
     padding: 0 20px;
     background-color: #232946 !important;
-    height: 9000px;
+
 }
 
 nav ul li a {
@@ -57,13 +57,6 @@ nav .navbar-collapse .navbar-nav .nav-item a:hover::after {
     width: 100%;
 
 }
-
-/* nav .navbar-collapse .navbar-nav .nav-item a.active {
-    color: #33BBDD !important;
-    font-weight: 500;
-} */
-
-
 
 
 .main .intro {
