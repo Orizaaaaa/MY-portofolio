@@ -26,12 +26,12 @@ function App() {
 
         <section id="aboutMe" >
           <h1 className="text-center text-light" >About Me</h1>
-          <div className="row">
-            <div className="col">
+          <div className="row d-flex justify-content-center align-items-center">
+            <div className="col col-auto">
               <img src={aboutImage} alt="" />
             </div>
 
-            <div className="col">
+            <div className="col col-7">
               <div className="AboutMySelf">
                 <h4 className="text-light">Hello👋 i'am <span>Oriza Sativa Cikal.M</span> <br /></h4>
                 <h5 className="text-light"><span>A Frontend Developer</span> based  in <span>Indonesia</span></h5>

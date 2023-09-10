@@ -91,3 +91,8 @@ nav .navbar-collapse .navbar-nav .nav-item a:hover::after {
 .main .row .col:nth-child(2) img {
     height: 530px;
 }
+
+#aboutMe .row .col img {
+    height: 500px;
+    width: 380px;
+}
