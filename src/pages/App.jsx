@@ -35,7 +35,7 @@ function App() {
               <div className="AboutMySelf">
                 <h4 className="text-light">Hello👋 i'am <span>Oriza Sativa Cikal.M</span> <br /></h4>
                 <h5 className="text-light"><span>A Frontend Developer</span> based  in <span>Indonesia</span></h5>
-                <p className="mt-4 text-light" >Hello everyone! I am Muhammad Sufyan, a frontend mobile and website developer.
+                <p className="mt-4 text-light" >Hello everyone! I am Oriza Sativa, a frontend mobile and website developer.
                   I am a intermediate experienced and I hope with this I can always learning something new
                   to be able to invent digital applications that can help many people in the future.
                   Can work alone or in a team.</p>
