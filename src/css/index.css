@@ -100,3 +100,11 @@ nav .navbar-collapse .navbar-nav .nav-item a:hover::after {
     height: 500px;
     width: 380px;
 }
+
+#aboutMe .row .col h4 {
+    color: #33BBDD;
+}
+
+#aboutMe .AboutMySelf span {
+    color: #33BBDD;
+}

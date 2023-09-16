@@ -40,17 +40,17 @@ function App() {
                   to be able to invent digital applications that can help many people in the future.
                   Can work alone or in a team.</p>
                 <hr className="text-light" />
-                <div className="row text-light">
-                  <div className="col">
+                <div className="row text-black">
+                  <div className="col bg-light  text-center">
                     <h4>1+ </h4>
                     <h5>Years Of Experience</h5>
                   </div>
-                  <div className="col">
+                  <div className="col text-center">
                     <h4>2+ </h4>
-                    <h5>Programming Language Used</h5>
+                    <h5>Programming Language </h5>
                   </div>
-                  <div className="col">
-                    <h4>8+ </h4>
+                  <div className="col text-center">
+                    <h4 >8+ </h4>
                     <h5>Successed Projects</h5>
                   </div>
                 </div>
