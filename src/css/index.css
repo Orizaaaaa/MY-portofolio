@@ -59,38 +59,7 @@ nav .navbar-collapse .navbar-nav .nav-item a:hover::after {
 }
 
 
-.main .intro {
-    min-height: 96vh;
-}
 
-.main .row .col h1 {
-    font-family: 'Hurricane', cursive;
-    font-size: 90px;
-    color: #33BBDD;
-}
-
-.main .row .col h2 {
-    color: #FFFFFF;
-    line-height: 60px;
-    font-size: 73px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-}
-
-.main .row .col h3 {
-    color: #FFFFFF;
-    font-weight: 100;
-    font-size: 70px;
-}
-
-.main .row .col {
-    display: grid;
-    justify-content: center;
-}
-
-.main .row .col:nth-child(2) img {
-    height: 530px;
-}
 
 #aboutMe {
     font-family: 'Inter', sans-serif;
