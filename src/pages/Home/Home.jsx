@@ -1,5 +1,6 @@
 import React from 'react'
 import { profile } from '../../../image'
+import "./home.css"
 
 function Home() {
     return (

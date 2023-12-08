@@ -14,8 +14,8 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
-                        <NavbarList condition='active' location='#' title='Home' />
-                        <NavbarList condition='active' location='#' title='About' />
+                        <NavbarList condition='active' location='home' title='Home' />
+                        <NavbarList condition='active' location='aboutMe' title='About' />
                         <NavbarList condition='active' location='#' title='Skill' />
                         <NavbarList condition='active' location='#' title='Education' />
                         <NavbarList condition='active' location='#' title='Experience' />

@@ -1,5 +1,6 @@
 import React from 'react'
 import { aboutImage } from '../../../image'
+import "./aboutme.css"
 
 function AboutMe() {
     return (
