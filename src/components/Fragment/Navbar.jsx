@@ -1,11 +1,10 @@
 import React from 'react'
 import ButtonBlue from '../Element/ButtonBlue'
-import NavbarList from '../Element/NavbarList'
 
-function Navbar() {
+function Navbar({ children }) {
 
     return (
-        <nav id="home" className="navbar navbar-expand-lg bg-none ">
+        <nav className="navbar navbar-expand-lg bg-none position-fixed w-100 px-3">
             <div className="container-fluid ">
                 <span className="portofolio"> <b>PORTOFOLIO</b><br /> <p>Informatics Student | Front End Developer</p> </span>
 
@@ -14,11 +13,7 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto">
-                        <NavbarList condition='active' location='home' title='Home' />
-                        <NavbarList condition='active' location='aboutMe' title='About' />
-                        <NavbarList condition='active' location='#' title='Skill' />
-                        <NavbarList condition='active' location='#' title='Education' />
-                        <NavbarList condition='active' location='#' title='Experience' />
+                        {children}
                     </ul>
                     <ButtonBlue title='CONTACT ME' />
                 </div>
