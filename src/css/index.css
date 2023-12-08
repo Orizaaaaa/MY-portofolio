@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inter:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500&display=swap');
 
 
+
 /* font-family: 'Hurricane', cursive;
 font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
@@ -10,14 +11,13 @@ font-family: 'Poppins', sans-serif; */
 }
 
 body {
-    /* padding: 0 20px; */
     background-color: #232946 !important;
 
 }
 
 nav ul li a {
     color: white !important;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -33,7 +33,7 @@ nav .portofolio {
 
 nav .navbar-collapse button {
     background-color: #33BBDD !important;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px
 }
@@ -60,4 +60,17 @@ nav .navbar-collapse .navbar-nav .nav-item a::after {
 nav .navbar-collapse .navbar-nav .nav-item a:hover::after {
     width: 100%;
 
+}
+
+.navbarbgActive {
+    background: rgba(211, 202, 202, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
 }

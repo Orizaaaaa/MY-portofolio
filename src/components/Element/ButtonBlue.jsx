@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ButtonBlue(props) {
-    const { title } = props
+function ButtonBlue({ title, className }) {
+
     return (
-        <button className="btn btn-primary" >{title}</button>
+        <button className={`btn ${className}`} >{title}</button>
     )
 }
 
