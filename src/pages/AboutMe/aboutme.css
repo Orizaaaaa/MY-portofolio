@@ -14,3 +14,8 @@
 #aboutMe .AboutMySelf span {
     color: #33BBDD;
 }
+
+#aboutMe .row .col button {
+    border: 1px solid #0EA5E9;
+    color: #0EA5E9;
+}
