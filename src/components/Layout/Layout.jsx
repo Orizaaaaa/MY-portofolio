@@ -40,7 +40,7 @@ function Layout({ children }) {
                 <NavbarList location='#' title='Experience' />
             </Navbar>
 
-            <main className='main container' >
+            <main className='main' >
                 {children}
             </main>
         </>
