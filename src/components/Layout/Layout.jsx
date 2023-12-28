@@ -7,16 +7,14 @@ function Layout({ children }) {
 
     useEffect(() => {
         const handleScroll = () => {
+
             const sections = document.querySelectorAll('section');
-            let found = false;
 
             sections.forEach(section => {
-                if (!found) {
-                    const rect = section.getBoundingClientRect();
-                    if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-                        setActiveSection(section.id);
-                        found = true;
-                    }
+                const rect = section.getBoundingClientRect();
+
+                if (rect.top <= 0 && rect.bottom >= 0) {
+                    setActiveSection(section.id);
                 }
             });
         };
