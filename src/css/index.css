@@ -47,7 +47,8 @@ nav .portofolio p {
 
 }
 
-nav .navbar-collapse .navbar-nav .nav-item a:hover {
+nav .navbar-collapse .navbar-nav .nav-item a:hover,
+nav .navbar-collapse .navbar-nav .nav-item a.active {
     color: #33BBDD !important;
     font-weight: 600;
 }
