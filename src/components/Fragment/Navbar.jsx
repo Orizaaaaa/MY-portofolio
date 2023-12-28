@@ -12,7 +12,7 @@ function Navbar({ children }) {
     };
     window.addEventListener('scroll', changeBackground)
     return (
-        <nav className={`navbar navbar-expand-lg position-fixed px-3 py-2 w-100 rounded-0  ${navbarBg ? "navbarbgActive" : ""}`}>
+        <nav className={`navbar navbar-expand-lg position-fixed py-2 w-100 rounded-0  ${navbarBg ? "navbarbgActive" : ""}`}>
             <div className="container-fluid ">
                 <span className="portofolio ">
                     <b>PORTOFOLIO</b>
