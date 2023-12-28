@@ -23,7 +23,7 @@ function AboutMe() {
                             to be able to invent digital applications that can help many people in the future.
                             Can work alone or in a team.</p>
                         <hr className="text-light" />
-                        <div className="row text-black">
+                        <div className="row text-black gap-2">
                             <div className="col bg-light  text-center me-2 rounded-2 p-3">
                                 <h4>1+ </h4>
                                 <h5>Years Of Experience</h5>
@@ -32,7 +32,7 @@ function AboutMe() {
                                 <h4>2+ </h4>
                                 <h5>Programming Language </h5>
                             </div>
-                            <div className="col bg-light text-center rounded-2 p-3">
+                            <div className="col bg-light text-center rounded-2 p-3 ">
                                 <h4 >8+ </h4>
                                 <h5>Successed Projects</h5>
                             </div>
