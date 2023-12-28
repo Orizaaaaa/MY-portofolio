@@ -27,12 +27,11 @@ nav ul li a {
 
 
 nav .portofolio {
-    width: 50px;
+    width: 14%;
     color: #33BBDD;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     white-space: nowrap;
-
 }
 
 nav .navbar-collapse button {
@@ -45,6 +44,7 @@ nav .navbar-collapse button {
 nav .portofolio p {
     font-size: 15px;
     color: #FFFFFF;
+
 }
 
 nav .navbar-collapse .navbar-nav .nav-item a:hover {

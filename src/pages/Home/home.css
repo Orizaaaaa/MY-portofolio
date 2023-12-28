@@ -1,5 +1,6 @@
 .main .intro {
     min-height: 100vh;
+    padding-top: 30px;
 }
 
 .main .row .col h1 {
