@@ -1,6 +1,6 @@
 .main .intro {
     min-height: 100vh;
-    padding-top: 30px;
+    padding: 50px 30px;
 }
 
 .main .row .col h1 {
@@ -31,4 +31,37 @@
 #home .intro .col img {
     width: 100%;
     height: 480px;
+}
+
+@media screen and (max-width:1168px) {
+    .main .row .col h1 {
+        font-size: 80px;
+    }
+
+    .main .row .col h2 {
+        font-size: 63px;
+    }
+
+    .main .row .col h3 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:966px) {
+    .main .row .col h1 {
+        font-size: 100px;
+    }
+
+    .main .row .col h2 {
+        font-size: 63px;
+    }
+
+    .main .row .col h3 {
+        font-size: 50px;
+    }
+
+    #home .intro .col img {
+        width: 100%;
+        height: 580px;
+    }
 }

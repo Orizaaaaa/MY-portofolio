@@ -41,7 +41,7 @@ function Layout({ children }) {
             </Navbar>
 
             <main className='main' >
-                <div className="container">
+                <div className="container-xxl">
                     {children}
                 </div>
             </main>

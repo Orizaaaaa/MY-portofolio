@@ -2,7 +2,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-#aboutMe .row .col img {
+#aboutMe .row .col-lg-auto img {
     height: 500px;
     width: 380px;
 }

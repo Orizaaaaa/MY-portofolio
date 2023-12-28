@@ -7,14 +7,14 @@ import { ChatFill } from 'react-bootstrap-icons'
 
 function AboutMe() {
     return (
-        <section className='aboutMe mb-5' id="aboutMe" >
+        <section className='aboutMe mb-5 ' id="aboutMe" >
             <h1 className="text-center text-light" >About Me</h1>
             <div className="row d-flex justify-content-center align-items-center">
-                <div className="col col-auto">
+                <div className="col-lg-auto col-12 d-flex justify-content-center align-items-center">
                     <img src={aboutImage} alt="" />
                 </div>
 
-                <div className="col col-7">
+                <div className=" col-lg-7 col-12">
                     <div className="AboutMySelf">
                         <h4 className="text-light">Hello👋 i'am <span>Oriza Sativa Cikal.M</span> <br /></h4>
                         <h5 className="text-light"><span>A Frontend Developer</span> based  in <span>Indonesia</span></h5>
