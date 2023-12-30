@@ -2,6 +2,7 @@ import React from 'react'
 import { aboutImage } from '../../../image'
 import "./aboutme.css"
 import { ChatFill } from 'react-bootstrap-icons'
+import { AboutmeUtils } from '../../utils/DataObject'
 
 
 
@@ -23,27 +24,17 @@ function AboutMe() {
                             to be able to invent digital applications that can help many people in the future.
                             Can work alone or in a team.</p>
                         <hr className="text-light" />
-                        <div className="row d-flex justify-content-between text-black">
-                            <div className="col-lg-4 ">
-                                <div className='bg-light text-center  rounded-2 px-2 py-3' >
-                                    <h4>1+ </h4>
-                                    <h5>Years Of Experience</h5>
-                                </div>
-                            </div>
+                        <div className="row d-flex justify-content-between text-black ">
 
-                            <div className="col-lg-4 " >
-                                <div className='bg-light text-center  rounded-2 px-2 py-3'>
-                                    <h4>2+ </h4>
-                                    <h5>Programing Language </h5>
+                            {AboutmeUtils.map((item, index) => (
+                                <div className={`col-lg-4 col-${index === AboutmeUtils.length - 1 ? '12 mt-lg-0  mt-4' : '6'}`} key={index}>
+                                    <div className='bg-light text-center rounded-2 px-2 py-3'>
+                                        <h4>{item.year}</h4>
+                                        <h5>{item.title}</h5>
+                                    </div>
                                 </div>
+                            ))}
 
-                            </div>
-                            <div className="col-lg-4  ">
-                                <div className='bg-light text-center rounded-2 px-2 py-3' >
-                                    <h4 >8+ </h4>
-                                    <h5>Successed Projects</h5>
-                                </div>
-                            </div>
                             <button className='mt-4 rounded-3 d-flex justify-content-center gap-2 align-items-center btn '>Contact With Me  <ChatFill /> </button>
                         </div>
 
