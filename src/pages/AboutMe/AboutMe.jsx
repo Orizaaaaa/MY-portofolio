@@ -11,7 +11,7 @@ function AboutMe() {
         <section className='aboutMe mb-5 px-2' id="aboutMe" >
             <h1 className="text-center text-light" >About Me</h1>
             <div className="row d-flex justify-content-center align-items-center">
-                <div className="col-lg-4 col-12 d-flex justify-content-center align-items-center mx-auto">
+                <div className="col-lg-4 col-12 d-flex justify-content-center align-items-center m-lg-0 m-5">
                     <img src={aboutImage} alt="" />
                 </div>
 
@@ -27,15 +27,17 @@ function AboutMe() {
                         <div className="row d-flex justify-content-between text-black ">
 
                             {AboutmeUtils.map((item, index) => (
-                                <div className={`col-lg-4 col-${index === AboutmeUtils.length - 1 ? '12 mt-lg-0  mt-4' : '6'}`} key={index}>
+                                <div className={`col-lg-4 p-2 col-sm-${index === AboutmeUtils.length - 1 ? '12 ' : '6'} col-12 `} key={index}>
                                     <div className='bg-light text-center rounded-2 px-2 py-3'>
                                         <h4>{item.year}</h4>
                                         <h5>{item.title}</h5>
                                     </div>
                                 </div>
                             ))}
+                            <div className="p-2">
+                                <button className='mt-4 rounded-3 d-flex justify-content-center gap-2 align-items-center btn w-100'>Contact With Me  <ChatFill /> </button>
+                            </div>
 
-                            <button className='mt-4 rounded-3 d-flex justify-content-center gap-2 align-items-center btn '>Contact With Me  <ChatFill /> </button>
                         </div>
 
                     </div>
