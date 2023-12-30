@@ -2,7 +2,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-#aboutMe .row .col-lg-auto img {
+#aboutMe .row .col-lg-4 img {
     height: 500px;
     width: 380px;
 }
@@ -15,7 +15,7 @@
     color: #33BBDD;
 }
 
-#aboutMe .row .col-lg-7 .AboutMySelf button {
+#aboutMe .row .col-lg-8 .AboutMySelf button {
     border: 1px solid #0EA5E9;
     color: #0EA5E9;
 }
