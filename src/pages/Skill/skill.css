@@ -1,0 +1,13 @@
+#my-skill {
+    font-family: 'Inter', sans-serif;
+}
+
+#my-skill .row .col-lg-9 .card {
+    background-color: #132347;
+    border: none;
+}
+
+#my-skill .row .col-lg-3 h2 {
+    color: #0EA5E9;
+    font-weight: 700;
+}

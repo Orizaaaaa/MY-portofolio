@@ -17,7 +17,7 @@ export const AboutmeUtils = [
 
 export const SkillUtils = [
     {
-        title: 'Html',
+        title: 'HTML',
         image: HtmlIMage,
         level: 'Advanced',
     }
