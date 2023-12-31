@@ -7,6 +7,11 @@
     border: none;
 }
 
+#my-skill .row .col-lg-9 .card .row .col-lg-3 .d-flex img {
+    height: 33px;
+    width: 33px;
+}
+
 #my-skill .row .col-lg-3 h2 {
     color: #0EA5E9;
     font-weight: 700;

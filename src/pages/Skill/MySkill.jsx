@@ -1,5 +1,4 @@
 import React from 'react'
-import { HtmlIMage } from '../../../image'
 import './skill.css'
 import ListSkill from '../../components/Fragment/ListSkill'
 import { SkillUtils } from '../../utils/DataObject'
