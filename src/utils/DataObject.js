@@ -1,4 +1,4 @@
-
+import { HtmlIMage } from "../../image"
 export const AboutmeUtils = [
     {
         title: 'Years Of Experience',
@@ -12,4 +12,13 @@ export const AboutmeUtils = [
         title: 'Successed Projects',
         year: '8+',
     },
+]
+
+
+export const SkillUtils = [
+    {
+        title: 'Html',
+        image: HtmlIMage,
+        level: 'Advanced',
+    }
 ]
