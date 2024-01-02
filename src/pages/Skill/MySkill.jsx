@@ -5,12 +5,12 @@ import { SkillUtils } from '../../utils/DataObject'
 
 function MySkill() {
     return (
-        <section className='my-skill mb-2' id='my-skill'>
+        <section className='my-skill mb-2 ' id='my-skill'>
             <h1 className="text-center text-light mb-5" >My Skills</h1>
             <div className="row">
                 <div className="col-lg-9 ">
-                    <div className="card p-2 p-sm-5 py-5">
-                        <div className="row justify-content-start">
+                    <div className="card  p-2 p-sm-5 py-5">
+                        <div className="row justify-content-start ">
                             {SkillUtils.map((item, index) => (
                                 <ListSkill key={index} {...item} />
                             ))}
