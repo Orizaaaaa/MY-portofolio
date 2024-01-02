@@ -9,10 +9,45 @@
 /* styling width splide js */
 #experiences .experience-list {
     width: 70vh;
-    min-height: 300px;
+    height: 320px;
     background-color: #132347;
 }
 
+
 #experiences .experience-list .d-flex p span {
     color: #0EA5E9;
+}
+
+#experiences .subtitle {
+    width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+    #experiences .subtitle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #experiences .experience-list {
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    #experiences .experience-list {
+        width: 40vh;
+    }
+
+    #experiences .caraosel .experience-list .description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    #experiences .experience-list {
+        width: 40vh;
+
+    }
+
 }

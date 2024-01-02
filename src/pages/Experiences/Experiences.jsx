@@ -9,7 +9,7 @@ function Experiences() {
     return (
         <section className='experiences mb-4' id='experiences'>
             <h1 className="text-center text-light mb-5 mt-5" >Experiences</h1>
-            <div className="subtitle w-50">
+            <div className="subtitle ">
                 <h1 className='fw-bold' >Work Experiences⌛</h1>
                 <p className='text-light' >I'm also experienced at some website development and software testing that i learn for
                     over 1 years will described below</p>
@@ -24,6 +24,11 @@ function Experiences() {
                     arrows: true,
                     autoplay: true,
                     perPage: 1,
+                    breakpoints: {
+                        558: {
+                            arrows: false
+                        }
+                    }
                 }}>
                     {ExperienceUtils.map((item, index) => (
                         <SplideSlide >

@@ -13,7 +13,7 @@ function ExperienceCarList({ title, subtitle, time, techStack, description, date
                 ))}
             </div>
             <p className='time text-secondary' >{date}</p>
-            <p className='text-light' >{description}</p>
+            <p className='text-light description' >{description}</p>
         </div>
     )
 }
