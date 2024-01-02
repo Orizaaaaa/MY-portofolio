@@ -76,3 +76,25 @@ export const SkillUtils = [
         level: 'Basic',
     },
 ]
+
+export const EducationUtils = [
+    {
+        title: 'MA PONPES CIPARI',
+        date: '2018-2021',
+        subtitle: 'Social Science'
+
+    },
+    {
+        title: 'STIMIK Mardira Indonesia',
+        date: '2021-Present',
+        subtitle: 'Information Systems',
+    }
+]
+
+export const AwardsUtils = [
+    {
+        title: '3 Th Winner Mini Project MSIB',
+        date: 'September-2023',
+        subtitle: 'Alterra Academy',
+    }
+]
