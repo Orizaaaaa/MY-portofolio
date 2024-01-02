@@ -9,6 +9,7 @@
 /* styling width splide js */
 #experiences .experience-list {
     width: 70vh;
+    min-height: 300px;
     background-color: #132347;
 }
 

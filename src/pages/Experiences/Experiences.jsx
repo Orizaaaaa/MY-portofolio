@@ -2,7 +2,6 @@ import React from 'react'
 import './experiences.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css';
-import { HtmlIMage } from '../../../image';
 import ExperienceCarList from '../../components/Fragment/ExperienceCarList';
 import { ExperienceUtils } from '../../utils/DataObject';
 
@@ -16,33 +15,25 @@ function Experiences() {
                     over 1 years will described below</p>
             </div>
 
-            <Splide options={{
-                focus: 'center',
-                autoWidth: true,
-                gap: 10,
-                type: 'loop',
-                arrows: false,
-                autoplay: true,
-                perPage: 1,
-                pagination: true,
-                breakpoints: {
-                    500: {
-                        pagination: false,
-                    },
-
-                }
-
-            }}>
-
-                <SplideSlide >
+            <div className="caraosel ">
+                <Splide options={{
+                    focus: 'center',
+                    autoWidth: true,
+                    gap: 10,
+                    type: 'loop',
+                    arrows: true,
+                    autoplay: true,
+                    perPage: 1,
+                }}>
                     {ExperienceUtils.map((item, index) => (
-                        <ExperienceCarList key={index} {...item} />
+                        <SplideSlide >
+                            <ExperienceCarList key={index} {...item} />
+                        </SplideSlide>
                     ))}
-                </SplideSlide>
 
 
-            </Splide>
-
+                </Splide>
+            </div>
         </section >
     )
 }

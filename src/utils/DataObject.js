@@ -104,9 +104,16 @@ export const ExperienceUtils = [
         title: 'Frontend Developer',
         time: 'Full Time',
         date: '2023-Present',
-        subtitle: 'Global Digital Arrange',
-        description: 'Responsible for debugging on several websites such as FindDW, FinEvolution and responsible for creating the entire company profile website.',
-        techStack: [HtmlIMage, css]
-
-    }
+        subtitle: 'TLM Health And Education',
+        description: 'Creating informative and responsive website interfaces focused on health and education for the community.I ensured that the websites were visually appealing and accessible across various devices.',
+        techStack: [HtmlIMage, css, javascript]
+    },
+    {
+        title: 'Frontend Developer',
+        time: 'Full Time',
+        date: '2023',
+        subtitle: 'CSA Learning',
+        description: 'CSA Learning! This serves as the mini-project assignment from Alterra Academy, This revolutionary e-learning platform is crafted using Express JS',
+        techStack: [HtmlIMage, css, react, bootstrap]
+    },
 ]
