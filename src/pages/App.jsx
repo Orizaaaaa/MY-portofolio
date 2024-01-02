@@ -3,6 +3,8 @@ import AboutMe from "./AboutMe/AboutMe"
 import Layout from "../components/Layout/Layout"
 import MySkill from "./Skill/MySkill"
 import Educations from "./Educations/Educations"
+import Experiences from "./Experiences/Experiences"
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
         <AboutMe />
         <MySkill />
         <Educations />
+        <Experiences />
       </Layout>
     </>
   )
