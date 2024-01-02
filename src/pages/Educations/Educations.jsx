@@ -2,6 +2,8 @@ import React from 'react'
 import './Educations.css'
 import EducationList from '../../components/Fragment/EducationList'
 import { AwardsUtils, EducationUtils } from '../../utils/DataObject'
+import { Mortarboard, TrophyFill } from 'react-bootstrap-icons'
+import EducationTitle from '../../components/Fragment/EducationTitle'
 
 function Educations() {
     return (
@@ -17,16 +19,19 @@ function Educations() {
                 </div>
                 <div className="col-lg-9">
                     <div className=" education-list rounded-3 p-2 p-sm-5 py-5">
-                        <div className="row">
+                        <div className="row row-cols-md-2 row-cols-1">
                             <div className="col">
+
                                 <div className="container">
+                                    <EducationTitle title="EDUCATIONS" icon={<Mortarboard />} />
                                     {EducationUtils.map((item, index) => (
                                         <EducationList title={item.title} subtitle={item.subtitle} date={item.date} key={index} />
                                     ))}
                                 </div>
                             </div>
                             <div className="col">
-                                <div className="container">
+                                <div className="container mt-4 mt-md-0">
+                                    <EducationTitle title={'AWARDS'} icon={<TrophyFill />} />
                                     {AwardsUtils.map((item, index) => (
                                         <EducationList title={item.title} subtitle={item.subtitle} date={item.date} key={index} />
                                     ))}

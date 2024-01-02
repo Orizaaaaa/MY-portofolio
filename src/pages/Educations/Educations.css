@@ -45,3 +45,9 @@
 .educations .timeline-item:last-child {
     border-image: linear-gradient(to bottom, #0EA5E9 60%, rgba(0, 0, 0, 0)) 1 100%;
 }
+
+.col-lg-9 .education-list .title-education {
+    background-color: #0EA5E9;
+    color: #132347;
+    width: max-content;
+}
