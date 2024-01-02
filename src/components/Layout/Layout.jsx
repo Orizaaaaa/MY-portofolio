@@ -33,8 +33,8 @@ function Layout({ children }) {
             <Navbar>
                 <NavbarList className={activeSection === 'home' ? 'active' : ''} location='#home' title='Home' />
                 <NavbarList className={activeSection === 'aboutMe' ? 'active' : ''} location='#aboutMe' title='About' />
-                <NavbarList location='#' title='Skill' />
-                <NavbarList location='#' title='Education' />
+                <NavbarList className={activeSection === 'my-skill' ? 'active' : ''} location='#my-skill' title='Skill' />
+                <NavbarList className={activeSection === 'educations' ? 'active' : ''} location='#educations' title='Education' />
                 <NavbarList location='#' title='Experience' />
             </Navbar>
 
