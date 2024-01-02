@@ -98,3 +98,15 @@ export const AwardsUtils = [
         subtitle: 'Alterra Academy',
     }
 ]
+
+export const ExperienceUtils = [
+    {
+        title: 'Frontend Developer',
+        time: 'Full Time',
+        date: '2023-Present',
+        subtitle: 'Global Digital Arrange',
+        description: 'Responsible for debugging on several websites such as FindDW, FinEvolution and responsible for creating the entire company profile website.',
+        techStack: [HtmlIMage, css]
+
+    }
+]

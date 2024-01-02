@@ -5,3 +5,13 @@
 #experiences .subtitle h1 {
     color: #0EA5E9;
 }
+
+/* styling width splide js */
+#experiences .experience-list {
+    width: 70vh;
+    background-color: #132347;
+}
+
+#experiences .experience-list .d-flex p span {
+    color: #0EA5E9;
+}
