@@ -1,6 +1,6 @@
 import {
     HtmlIMage, css, javascript, node, react, tailwind,
-    typescript, vite, nextjs, bootstrap, primereact, redux
+    typescript, vite, nextjs, bootstrap, primereact, redux, project02
 } from "../../image"
 export const AboutmeUtils = [
     {
@@ -116,4 +116,22 @@ export const ExperienceUtils = [
         description: 'CSA Learning! This serves as the mini-project assignment from Alterra Academy, This revolutionary e-learning platform is crafted using Express JS',
         techStack: [HtmlIMage, css, react, bootstrap]
     },
+]
+
+export const PortfolioUtils = [
+    {
+        thumbail: project02,
+        title: 'Phantom Landing Page',
+        description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
+        techStack: [
+            {
+                image: HtmlIMage,
+                title: 'HTML'
+            },
+            {
+                image: HtmlIMage,
+                title: 'HTML'
+            },
+        ]
+    }
 ]
