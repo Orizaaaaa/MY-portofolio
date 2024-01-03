@@ -2,3 +2,22 @@
     font-family: 'Inter', sans-serif;
     margin-top: 125px;
 }
+
+#portfolio .subtitle h1 {
+    color: #0EA5E9;
+}
+
+#portfolio .row .portfolio-list .portfolio-wrap .d-flex img {
+    width: 20px;
+    height: 20px;
+}
+
+#portfolio .row .portfolio-list .button-portfolio button:nth-child(1) {
+    background-color: #0EA5E9;
+    color: #FFFF;
+}
+
+#portfolio .row .portfolio-list .button-portfolio button:nth-child(2) {
+    color: #0EA5E9;
+    border: 2px solid #0EA5E9;
+}

@@ -12,6 +12,7 @@ import nextjs from './src/assets/nextjs.svg'
 import bootstrap from './src/assets/bootstrap.svg'
 import primereact from './src/assets/primereact.svg'
 import redux from './src/assets/redux.svg'
+import project02 from './src/assets/project02.png'
 
 export {
     profile,
@@ -20,5 +21,5 @@ export {
     css,
     javascript,
     node,
-    react, tailwind, typescript, vite, nextjs, bootstrap, primereact, redux
+    react, tailwind, typescript, vite, nextjs, bootstrap, primereact, redux, project02
 }
