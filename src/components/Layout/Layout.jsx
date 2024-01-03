@@ -25,8 +25,6 @@ function Layout({ children }) {
         };
     }, []);
 
-    console.log(activeSection);
-
     return (
         <>
             <Navbar>
