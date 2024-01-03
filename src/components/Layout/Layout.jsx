@@ -40,6 +40,8 @@ function Layout({ children }) {
 
             <main className='main' >
                 <div className="container-xxl">
+                    {/* <p className='text-light position-fixed top-50 start-0' >BBBBB</p> */}
+                    {/* itu adalah contoh untuk membuat social media berjalan */}
                     {children}
                 </div>
             </main>
