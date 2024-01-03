@@ -32,8 +32,8 @@ function Experiences() {
                     }
                 }}>
                     {ExperienceUtils.map((item, index) => (
-                        <SplideSlide >
-                            <ExperienceCarList key={index} {...item} />
+                        <SplideSlide key={index}>
+                            <ExperienceCarList  {...item} />
                         </SplideSlide>
                     ))}
 
