@@ -130,7 +130,7 @@ export const PortfolioUtils = [
             },
             {
                 image: HtmlIMage,
-                title: 'HTML'
+                title: 'JavaScript'
             },
         ]
     }

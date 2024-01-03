@@ -7,7 +7,7 @@ function PortfolioList({ thumbail, title, description, techStack }) {
             <div className="portfolio-wrap p-3 bg-light rounded-2">
                 <img className='w-100 rounded-1' src={thumbail} alt="image-portfolio" />
                 <h5 className='text-start fw-bold' >{title}</h5>
-                <div className="row row-cols-4">
+                <div className="row row-cols-3">
 
                     {techStack.map((item, index) => (
                         <div className="col p-2">
