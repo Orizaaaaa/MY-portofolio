@@ -19,7 +19,7 @@ function Portfolio() {
                 ))}
             </div>
             <div className="d-flex justify-content-center">
-                <button className='btn btn-view-all mt-5 mb-5 d-flex justify-content-center gap-2 align-items-center py-2 px-3' > View All Project<ArrowRightCircleFill /></button>
+                <button className='btn btn-view-all mt-5 mb-5 d-flex justify-content-center gap-2 align-items-center py-2 px-3 border-0' > View All Project<ArrowRightCircleFill /></button>
             </div>
 
         </section>

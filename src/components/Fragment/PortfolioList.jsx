@@ -3,12 +3,11 @@ import { ArrowRightCircleFill, EyeFill } from 'react-bootstrap-icons'
 
 function PortfolioList({ thumbail, title, description, techStack }) {
     return (
-        <div className="col-4 p-2 portfolio-list text-center ">
+        <div className="col-lg-4 col-sm-6 col-12 p-2 portfolio-list text-center ">
             <div className="portfolio-wrap p-3 text-light rounded-2">
                 <img className='w-100 rounded-1' src={thumbail} alt="image-portfolio" />
                 <h5 className='text-start fw-bold mt-3' >{title}</h5>
-                <div className="row row-cols-3">
-
+                <div className="row row-cols-2 row-cols-lg-3">
                     {techStack.map((item, index) => (
                         <div className="col p-2">
                             <div className='d-flex py-1 tech-stack rounded-1 align-items-center gap-1 justify-content-center'  >

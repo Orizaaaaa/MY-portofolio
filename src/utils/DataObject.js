@@ -138,4 +138,61 @@ export const PortfolioUtils = [
             },
         ]
     },
+    {
+        thumbail: project02,
+        title: 'Phantom Landing Page',
+        description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
+        techStack: [
+            {
+                image: HtmlIMage,
+                title: 'HTML'
+            },
+            {
+                image: javascript,
+                title: 'JavaScript'
+            },
+            {
+                image: css,
+                title: 'CSS'
+            },
+        ]
+    },
+    {
+        thumbail: project02,
+        title: 'Phantom Landing Page',
+        description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
+        techStack: [
+            {
+                image: HtmlIMage,
+                title: 'HTML'
+            },
+            {
+                image: javascript,
+                title: 'JavaScript'
+            },
+            {
+                image: css,
+                title: 'CSS'
+            },
+        ]
+    },
+    {
+        thumbail: project02,
+        title: 'Phantom Landing Page',
+        description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
+        techStack: [
+            {
+                image: HtmlIMage,
+                title: 'HTML'
+            },
+            {
+                image: javascript,
+                title: 'JavaScript'
+            },
+            {
+                image: css,
+                title: 'CSS'
+            },
+        ]
+    },
 ]
