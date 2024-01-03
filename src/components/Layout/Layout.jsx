@@ -35,6 +35,7 @@ function Layout({ children }) {
                 <NavbarList className={activeSection === 'my-skill' ? 'active' : ''} location='#my-skill' title='Skill' />
                 <NavbarList className={activeSection === 'educations' ? 'active' : ''} location='#educations' title='Education' />
                 <NavbarList className={activeSection === 'experiences' ? 'active' : ''} location='#experiences' title='Experience' />
+                <NavbarList className={activeSection === 'portfolio' ? 'active' : ''} location='#portfolio' title='Portfolio' />
             </Navbar>
 
             <main className='main' >

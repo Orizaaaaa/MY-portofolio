@@ -1,6 +1,6 @@
 #aboutMe {
     font-family: 'Inter', sans-serif;
-    min-height: 80vh;
+    /* min-height: 80vh; */
 }
 
 #aboutMe .row .col-lg-4 img {

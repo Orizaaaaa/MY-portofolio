@@ -4,6 +4,8 @@ import Layout from "../components/Layout/Layout"
 import MySkill from "./Skill/MySkill"
 import Educations from "./Educations/Educations"
 import Experiences from "./Experiences/Experiences"
+import Portfolio from "./Portofolio/Portfolio"
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
         <MySkill />
         <Educations />
         <Experiences />
+        <Portfolio />
       </Layout>
     </>
   )
