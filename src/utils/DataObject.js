@@ -129,9 +129,13 @@ export const PortfolioUtils = [
                 title: 'HTML'
             },
             {
-                image: HtmlIMage,
+                image: javascript,
                 title: 'JavaScript'
             },
+            {
+                image: css,
+                title: 'CSS'
+            },
         ]
-    }
+    },
 ]

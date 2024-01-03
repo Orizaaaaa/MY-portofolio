@@ -7,6 +7,17 @@
     color: #0EA5E9;
 }
 
+#portfolio .row .portfolio-list .portfolio-wrap {
+    background-color: #132347;
+}
+
+#portfolio .row .portfolio-list .portfolio-wrap .tech-stack {
+    background: rgba(211, 202, 202, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
 #portfolio .row .portfolio-list .portfolio-wrap .d-flex img {
     width: 20px;
     height: 20px;
@@ -20,4 +31,9 @@
 #portfolio .row .portfolio-list .button-portfolio button:nth-child(2) {
     color: #0EA5E9;
     border: 2px solid #0EA5E9;
+}
+
+#portfolio .d-flex .btn-view-all {
+    background-color: #0EA5E9;
+    color: #FFFF;
 }

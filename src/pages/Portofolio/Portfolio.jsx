@@ -3,6 +3,7 @@ import TitleSection from '../../components/Fragment/TitleSection'
 import './Portfolio.css'
 import PortfolioList from '../../components/Fragment/PortfolioList'
 import { PortfolioUtils } from '../../utils/DataObject'
+import { ArrowRightCircleFill } from 'react-bootstrap-icons'
 
 function Portfolio() {
     return (
@@ -17,6 +18,10 @@ function Portfolio() {
                     <PortfolioList key={index} {...item} />
                 ))}
             </div>
+            <div className="d-flex justify-content-center">
+                <button className='btn btn-view-all mt-5 mb-5 d-flex justify-content-center gap-2 align-items-center py-2 px-3' > View All Project<ArrowRightCircleFill /></button>
+            </div>
+
         </section>
     )
 }
