@@ -137,16 +137,17 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
 
 .title-section h1 {
     font-size: 62px;
-    font-weight: 700;
-    background: -webkit-linear-gradient(#eee, #060708);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: 17%;
+    font-weight: bold;
+    background: linear-gradient(to top, #232946, #FFFFFF);
+    background-clip: text;
+    color: transparent;
     margin: 0;
+    opacity: 0.10;
+    top: 40px;
 }
 
+
 .title-section h2 {
-    line-height: 0px;
     font-size: 40px;
     font-weight: 600;
 }
