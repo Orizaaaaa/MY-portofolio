@@ -5,6 +5,7 @@ import MySkill from "./Skill/MySkill"
 import Educations from "./Educations/Educations"
 import Experiences from "./Experiences/Experiences"
 import Portfolio from "./Portofolio/Portfolio"
+import Footer from "./Footer/Footer"
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Experiences />
         <Portfolio />
       </Layout>
+      <Footer />
     </>
   )
 }

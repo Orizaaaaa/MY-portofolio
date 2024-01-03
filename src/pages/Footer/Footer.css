@@ -1,0 +1,13 @@
+.footer {
+    background-color: #0EA5E9;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer .container .row a img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer .container {
+    min-height: 30vh;
+}

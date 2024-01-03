@@ -13,6 +13,10 @@ import bootstrap from './src/assets/bootstrap.svg'
 import primereact from './src/assets/primereact.svg'
 import redux from './src/assets/redux.svg'
 import project02 from './src/assets/project02.png'
+import Facebook from './src/assets/fb.svg'
+import Instagram from './src/assets/ig.svg'
+import github from './src/assets/github.svg'
+import lingkedin from './src/assets/lingkedin.svg'
 
 export {
     profile,
@@ -21,5 +25,5 @@ export {
     css,
     javascript,
     node,
-    react, tailwind, typescript, vite, nextjs, bootstrap, primereact, redux, project02
+    react, tailwind, typescript, vite, nextjs, bootstrap, primereact, redux, project02, Facebook, Instagram, github, lingkedin
 }

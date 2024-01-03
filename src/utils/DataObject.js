@@ -1,6 +1,6 @@
 import {
     HtmlIMage, css, javascript, node, react, tailwind,
-    typescript, vite, nextjs, bootstrap, primereact, redux, project02
+    typescript, vite, nextjs, bootstrap, primereact, redux, project02, Facebook, Instagram, lingkedin, github
 } from "../../image"
 export const AboutmeUtils = [
     {
@@ -194,5 +194,32 @@ export const PortfolioUtils = [
                 title: 'CSS'
             },
         ]
+    },
+]
+
+export const FooterUtils = [
+    {
+        name: 'Facebook',
+        image: Facebook,
+        link: 'https://www.facebook.com/fitriani.listin'
+
+    },
+    {
+        name: 'Instagram',
+        image: Instagram,
+        link: 'https://www.instagram.com/oryza_ssativa?igsh=MTdza2p3Y215eHJrMQ=='
+
+    },
+    {
+        name: 'Lingkedin',
+        image: lingkedin,
+        link: 'https://www.linkedin.com/in/oriza-sativa-cikal-mulyana-41a69425b'
+
+    },
+    {
+        name: 'Github',
+        image: github,
+        link: 'https://github.com/Orizaaaaa'
+
     },
 ]
