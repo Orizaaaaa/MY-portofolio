@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { Facebook, Instagram, lingkedin, github } from '../../../image'
 import { FooterUtils } from '../../utils/DataObject'
 
 function Footer() {
