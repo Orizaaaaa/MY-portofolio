@@ -6,10 +6,6 @@ import PortfolioList from '../../components/Fragment/PortfolioList'
 import { PortfolioUtils } from '../../utils/DataObject'
 
 function Portfolio() {
-    const techStackData = [
-        { image: HtmlIMage, title: 'HTML' },
-        { image: HtmlIMage, title: 'HTML' }
-    ];
     return (
         <section className="portfolio" id='portfolio'>
             <TitleSection title={'Portfolio'} />
