@@ -1,4 +1,3 @@
-import ButtonBlue from '../Element/ButtonBlue'
 import NavbarList from '../Element/NavbarList'
 import React, { useState, useEffect } from 'react'
 import Navbar from '../Fragment/Navbar';
@@ -13,7 +12,7 @@ function Layout({ children }) {
             sections.forEach(section => {
                 const rect = section.getBoundingClientRect();
 
-                if (rect.top <= 200 && rect.bottom >= 200) {
+                if (rect.top <= 330 && rect.bottom >= 330) {
                     setActiveSection(section.id);
                 }
             });
@@ -35,7 +34,7 @@ function Layout({ children }) {
                 <NavbarList className={activeSection === 'aboutMe' ? 'active' : ''} location='#aboutMe' title='About' />
                 <NavbarList className={activeSection === 'my-skill' ? 'active' : ''} location='#my-skill' title='Skill' />
                 <NavbarList className={activeSection === 'educations' ? 'active' : ''} location='#educations' title='Education' />
-                <NavbarList location='#' title='Experience' />
+                <NavbarList className={activeSection === 'experiences' ? 'active' : ''} location='#experiences' title='Experience' />
             </Navbar>
 
             <main className='main' >

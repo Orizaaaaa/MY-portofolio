@@ -1,5 +1,6 @@
 #experiences {
     font-family: 'Inter', sans-serif;
+    min-height: 80vh;
 }
 
 #experiences .subtitle h1 {
