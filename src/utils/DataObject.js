@@ -120,6 +120,7 @@ export const ExperienceUtils = [
 
 export const PortfolioUtils = [
     {
+        id: 1,
         thumbail: project02,
         title: 'Phantom Landing Page',
         description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
@@ -139,6 +140,7 @@ export const PortfolioUtils = [
         ]
     },
     {
+        id: 2,
         thumbail: project02,
         title: 'Phantom Landing Page',
         description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
@@ -158,6 +160,7 @@ export const PortfolioUtils = [
         ]
     },
     {
+        id: 3,
         thumbail: project02,
         title: 'Phantom Landing Page',
         description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
@@ -177,6 +180,7 @@ export const PortfolioUtils = [
         ]
     },
     {
+        id: 4,
         thumbail: project02,
         title: 'Phantom Landing Page',
         description: 'Phantom is a website that I created using HTML, CSS, and JavaScript. This…',
