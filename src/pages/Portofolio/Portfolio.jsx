@@ -1,7 +1,6 @@
 import React from 'react'
 import TitleSection from '../../components/Fragment/TitleSection'
 import './Portfolio.css'
-import { HtmlIMage } from '../../../image'
 import PortfolioList from '../../components/Fragment/PortfolioList'
 import { PortfolioUtils } from '../../utils/DataObject'
 
