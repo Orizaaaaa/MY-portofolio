@@ -130,6 +130,32 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
     stroke-width: 6;
 }
 
+.title-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-section h1 {
+    font-size: 62px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#eee, #060708);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 17%;
+    margin: 0;
+}
+
+.title-section h2 {
+    line-height: 0px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.caraosel .splide__track--draggable {
+    border-radius: 9px;
+}
+
+
 @media screen and (max-width: 992px) {
     nav {
         background: rgba(211, 202, 202, 0.3);

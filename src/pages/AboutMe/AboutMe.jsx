@@ -3,13 +3,14 @@ import { aboutImage } from '../../../image'
 import "./aboutme.css"
 import { ChatFill } from 'react-bootstrap-icons'
 import { AboutmeUtils } from '../../utils/DataObject'
+import TitleSection from '../../components/Fragment/TitleSection'
 
 
 
 function AboutMe() {
     return (
         <section className='aboutMe mb-5 px-2' id="aboutMe" >
-            <h1 className="text-center text-light" >About Me</h1>
+            <TitleSection title={'About Me'} />
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-lg-4 col-12 d-flex justify-content-center align-items-center m-lg-0 m-5">
                     <img src={aboutImage} alt="" />

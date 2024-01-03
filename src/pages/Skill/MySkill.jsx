@@ -2,11 +2,12 @@ import React from 'react'
 import './skill.css'
 import ListSkill from '../../components/Fragment/ListSkill'
 import { SkillUtils } from '../../utils/DataObject'
+import TitleSection from '../../components/Fragment/TitleSection'
 
 function MySkill() {
     return (
         <section className='my-skill mb-2 ' id='my-skill'>
-            <h1 className="text-center text-light mb-5" >My Skills</h1>
+            <TitleSection title={'My Skill'} />
             <div className="row">
                 <div className="col-lg-9 ">
                     <div className="card  p-2 p-sm-5 py-5">

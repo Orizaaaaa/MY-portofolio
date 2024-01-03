@@ -4,11 +4,12 @@ import EducationList from '../../components/Fragment/EducationList'
 import { AwardsUtils, EducationUtils } from '../../utils/DataObject'
 import { Mortarboard, TrophyFill } from 'react-bootstrap-icons'
 import EducationTitle from '../../components/Fragment/EducationTitle'
+import TitleSection from '../../components/Fragment/TitleSection'
 
 function Educations() {
     return (
-        <section className='educations mt-5' id='educations'>
-            <h1 className="text-center text-light mb-5" >Educations</h1>
+        <section className='educations ' id='educations'>
+            <TitleSection title={'Educations'} />
             <div className="row">
                 <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center p-3 ">
                     <div className="text-center text-lg-start">

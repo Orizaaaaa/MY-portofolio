@@ -4,11 +4,12 @@ import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css';
 import ExperienceCarList from '../../components/Fragment/ExperienceCarList';
 import { ExperienceUtils } from '../../utils/DataObject';
+import TitleSection from '../../components/Fragment/TitleSection';
 
 function Experiences() {
     return (
         <section className='experiences mb-4' id='experiences'>
-            <h1 className="text-center text-light mb-5 mt-5" >Experiences</h1>
+            <TitleSection title={'Experiences'} />
             <div className="subtitle ">
                 <h1 className='fw-bold' >Work Experiences⌛</h1>
                 <p className='text-light' >I'm also experienced at some website development and software testing that i learn for
