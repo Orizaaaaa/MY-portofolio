@@ -88,6 +88,11 @@ export const EducationUtils = [
         title: 'STIMIK Mardira Indonesia',
         date: '2021-Present',
         subtitle: 'Information Systems',
+    },
+    {
+        title: 'MSIB Alterra Academy',
+        date: '2023-2024',
+        subtitle: 'React JS Developer',
     }
 ]
 
