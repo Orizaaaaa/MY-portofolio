@@ -18,7 +18,8 @@ function Footer() {
                 </div>
 
             </section>
-            <p className='m-0 text-center text-light' >© 2024 Created Oriza Sativa Cikal Mulyana. All right reserved</p>
+            <p className='m-0 text-center text-light' >© Copy Right by <span class="fw-medium"> Oriza Sativa </span>
+                2023 All Right Reserved, Indonesia</p>
         </div>
 
     )
