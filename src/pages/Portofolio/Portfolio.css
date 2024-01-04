@@ -14,8 +14,6 @@
 #portfolio .row .portfolio-list .portfolio-wrap .tech-stack {
     background: rgba(211, 202, 202, 0.3);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: 0.4s;
 }
 
 #portfolio .row .portfolio-list .portfolio-wrap .d-flex img {
@@ -28,12 +26,33 @@
     color: #FFFF;
 }
 
+#portfolio .row .portfolio-list .button-portfolio button:nth-child(1):hover {
+    background: rgba(211, 202, 202, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+
 #portfolio .row .portfolio-list .button-portfolio button:nth-child(2) {
     color: #0EA5E9;
     border: 2px solid #0EA5E9;
 }
 
+#portfolio .row .portfolio-list .button-portfolio button:nth-child(2):hover {
+    background-color: #FFFF;
+    color: #0EA5E9;
+    transition: 0.4s;
+}
+
 #portfolio .d-flex .btn-view-all {
     background-color: #0EA5E9;
     color: #FFFF;
+}
+
+#portfolio .d-flex .btn-view-all:hover {
+    background: rgba(211, 202, 202, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
 }
