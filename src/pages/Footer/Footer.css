@@ -8,6 +8,16 @@
     height: 100px;
 }
 
+.footer .container .row a {
+    transition: transform 250ms;
+}
+
+
+.footer .container .row a:hover {
+    transform: translateY(-10px);
+}
+
+
 .footer .container {
     min-height: 30vh;
 }
