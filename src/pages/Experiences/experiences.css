@@ -54,15 +54,6 @@
         font-size: 13px;
     }
 
-    #experiences .title-section h1 {
-        font-size: 48px;
-    }
-
-    #experiences .title-section h2 {
-        font-size: 30px;
-    }
-
-
 }
 
 @media screen and (max-width: 391px) {

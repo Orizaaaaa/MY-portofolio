@@ -59,16 +59,43 @@
         font-size: 13px;
     }
 
-    #educations .title-section h1 {
-        font-size: 48px;
-    }
-
-    #educations .title-section h2 {
-        font-size: 30px;
-    }
 
     #educations .row .text-center h2 {
         font-size: 24px;
     }
 
 }
+
+@media screen and (max-width: 420px) {
+    #educations .row .col-lg-9 .row .container .timeline-item h5 {
+        font-size: 18px;
+    }
+
+    #educations .row .col-lg-9 .row .container .timeline-item p {
+        font-size: 14px;
+    }
+
+    #educations .row .col-lg-9 .row .container .text-secondary {
+        font-size: 14px;
+    }
+
+    #educations .row .col-lg-9 .education-list .row .col .container .title-education {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .educations .timeline-item {
+        padding: 0em 1em 2em;
+    }
+}
+
+/* @media screen and (max-width: 358px) {
+    #educations .title-section h1 {
+        font-size: 45px;
+    }
+
+    #educations .title-section h2 {
+        font-size: 25px;
+    }
+} */
