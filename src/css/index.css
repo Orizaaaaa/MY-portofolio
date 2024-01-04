@@ -91,7 +91,7 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
 
 .line {
     fill: none;
-    stroke: #33BBDD;
+    stroke: #FFFFFF;
     stroke-width: 6;
     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
         stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -156,6 +156,12 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
     border-radius: 9px;
 }
 
+@media screen and (max-width: 1058px) {
+    nav .portofolio p {
+        font-size: 14px;
+
+    }
+}
 
 @media screen and (max-width: 992px) {
     nav {
@@ -169,6 +175,10 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
         width: 80%;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         transition: 0.4s;
+    }
+
+    nav .container-fluid .navbar-collapse button {
+        width: 100%;
     }
 }
 
@@ -184,13 +194,11 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
 
     nav .portofolio p {
         font-size: 13px;
-        color: #FFFFFF;
 
     }
 
     nav .portofolio b {
         font-size: 13px;
-
     }
 }
 
