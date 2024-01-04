@@ -1,5 +1,5 @@
 import React from 'react'
-import { profile } from '../../../image'
+import { profile, myself1 } from '../../../image'
 import "./home.css"
 
 function Home() {
@@ -11,8 +11,8 @@ function Home() {
                     <h2>Oriza Sativa</h2>
                     <h3> <i>Front End Developer</i> </h3>
                 </div>
-                <div className="col-lg-6 col-12 d-flex justify-content-center " data-aos="fade-down">
-                    <img src={profile} alt="profile" />
+                <div className="col-lg-6 col-12 d-flex justify-content-center p-4" data-aos="fade-down">
+                    <img src={myself1} alt="profile" />
                 </div>
             </div>
         </section>

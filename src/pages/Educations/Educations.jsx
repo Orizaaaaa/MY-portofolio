@@ -8,7 +8,7 @@ import TitleSection from '../../components/Fragment/TitleSection'
 
 function Educations() {
     return (
-        <section className='educations ' id='educations' data-aos="fade-right">
+        <section className='educations ' id='educations' >
             <TitleSection title={'Educations'} />
             <div className="row">
                 <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center p-3 ">
@@ -19,7 +19,7 @@ function Educations() {
                     </div>
                 </div>
                 <div className="col-lg-9" >
-                    <div className=" education-list rounded-3 p-2 p-sm-5 py-5" >
+                    <div className=" education-list rounded-3 p-2 p-sm-5 py-5" data-aos="fade-right">
                         <div className="row row-cols-md-2 row-cols-1" >
                             <div className="col">
 

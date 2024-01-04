@@ -17,6 +17,8 @@ import Facebook from './src/assets/fb.svg'
 import Instagram from './src/assets/ig.svg'
 import github from './src/assets/github.svg'
 import lingkedin from './src/assets/lingkedin.svg'
+import myself1 from './src/assets/myself1.svg'
+
 
 export {
     profile,
@@ -25,5 +27,5 @@ export {
     css,
     javascript,
     node,
-    react, tailwind, typescript, vite, nextjs, bootstrap, primereact, redux, project02, Facebook, Instagram, github, lingkedin
+    react, tailwind, typescript, vite, nextjs, bootstrap, primereact, redux, project02, Facebook, Instagram, github, lingkedin, myself1
 }
