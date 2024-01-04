@@ -37,6 +37,22 @@
 
 }
 
+@media screen and (max-width: 438px) {
+
+    #aboutMe .title-section h1 {
+        font-size: 48px;
+    }
+
+    #aboutMe .title-section h2 {
+        font-size: 30px;
+    }
+
+    #aboutMe .row .col-lg-4 img {
+        height: 350px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:386px) {
     #aboutMe .row .col-lg-8 .AboutMySelf h4 {
         font-size: 19px;
