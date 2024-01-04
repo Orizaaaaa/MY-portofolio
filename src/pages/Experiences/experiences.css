@@ -54,12 +54,27 @@
         font-size: 13px;
     }
 
+    #experiences .experience-list {
+        width: 300px;
+        height: 370px;
+        background-color: #132347;
+    }
+
+    #experiences .experience-list .d-flex p {
+        font-size: 14px;
+    }
+
+
 }
 
 @media screen and (max-width: 391px) {
     #experiences .experience-list {
         width: 40vh;
-
     }
 
+    #experiences .experience-list {
+        width: 290px;
+        height: 370px;
+        background-color: #132347;
+    }
 }
