@@ -9,7 +9,7 @@ function Portfolio() {
     return (
         <section className="portfolio" id='portfolio'>
             <TitleSection title={'Portfolio'} />
-            <div className="subtitle ">
+            <div className="subtitle text-center text-lg-start">
                 <h1 className='fw-bold' >Project I've Created💼</h1>
                 <p className='text-light' >I've created a few project while i was learing about frontend website development. and all of project i'll explain below</p>
             </div>
