@@ -12,7 +12,7 @@ function Educations() {
             <TitleSection title={'Educations'} />
             <div className="row">
                 <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center p-3 ">
-                    <div className="text-center text-lg-start" data-aos="fade-up">
+                    <div className="text-center text-lg-start" data-aos="fade-right">
                         <h2 >Educations🎓 & Awards🏆</h2>
                         <p className='text-light ' >There are some formal education &
                             awards that i've reached below</p>

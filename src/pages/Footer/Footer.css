@@ -19,9 +19,22 @@
 
 
 .footer .container {
-    min-height: 30vh;
+    min-height: 60px;
 }
 
 .footer-container p {
     font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 574px) {
+    .footer .container .row a img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 494px) {
+    .footer-container p {
+        font-size: 12px;
+    }
 }
