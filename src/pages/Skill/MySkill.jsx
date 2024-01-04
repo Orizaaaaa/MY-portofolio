@@ -19,7 +19,7 @@ function MySkill() {
                     </div>
                 </div>
                 <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center p-3 order-first order-lg-last">
-                    <div className="text-center text-lg-start">
+                    <div className="text-center text-lg-start" data-aos="fade-left">
                         <h2 >Tech Stack⚙️ & Tools🛠️</h2>
                         <p className='text-light ' >There are some tech stack and tools
                             that i've learned and experienced</p>

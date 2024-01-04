@@ -1,6 +1,8 @@
 import NavbarList from '../Element/NavbarList'
 import React, { useState, useEffect } from 'react'
 import Navbar from '../Fragment/Navbar';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 function Layout({ children }) {
     const [activeSection, setActiveSection] = useState('home');
 
@@ -23,6 +25,12 @@ function Layout({ children }) {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
+    }, []);
+
+    useEffect(() => {
+        Aos.init({
+            duration: 1600,
+        });
     }, []);
 
     return (

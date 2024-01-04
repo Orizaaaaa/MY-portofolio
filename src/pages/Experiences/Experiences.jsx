@@ -10,13 +10,13 @@ function Experiences() {
     return (
         <section className='experiences mb-4' id='experiences'>
             <TitleSection title={'Experiences'} />
-            <div className="subtitle text-center text-lg-start">
+            <div className="subtitle text-center text-lg-start" data-aos="fade-right">
                 <h1 className='fw-bold' >Work Experiences⌛</h1>
                 <p className='text-light' >I'm also experienced at some website development and software testing that i learn for
                     over 1 years will described below</p>
             </div>
 
-            <div className="caraosel ">
+            <div className="caraosel " >
                 <Splide options={{
                     focus: 'center',
                     autoWidth: true,

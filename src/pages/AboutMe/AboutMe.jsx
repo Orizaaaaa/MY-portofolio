@@ -13,10 +13,10 @@ function AboutMe() {
             <TitleSection title={'About Me'} />
             <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-lg-4 col-12 d-flex justify-content-center align-items-center m-lg-0 m-5">
-                    <img src={aboutImage} alt="" />
+                    <img src={aboutImage} alt="about-image" data-aos="zoom-in" />
                 </div>
 
-                <div className=" col-lg-8 col-12">
+                <div className=" col-lg-8 col-12" >
                     <div className="AboutMySelf ">
                         <h4 className="text-light">Hello👋 i'am <span>Oriza Sativa Cikal.M</span> <br /></h4>
                         <h5 className="text-light"><span>A Frontend Developer</span> based  in <span>Indonesia</span></h5>
@@ -28,7 +28,7 @@ function AboutMe() {
                         <div className="row d-flex justify-content-between text-black ">
 
                             {AboutmeUtils.map((item, index) => (
-                                <div className={`col-lg-4 p-2 col-sm-${index === AboutmeUtils.length - 1 ? '12 ' : '6'} col-12 `} key={index}>
+                                <div className={`col-lg-4 p-2 col-sm-${index === AboutmeUtils.length - 1 ? '12 ' : '6'} col-12 `} key={index} >
                                     <div className='bg-light text-center rounded-2 px-2 py-3'>
                                         <h4>{item.year}</h4>
                                         <h5>{item.title}</h5>
