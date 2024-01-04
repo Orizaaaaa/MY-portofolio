@@ -11,8 +11,8 @@ function Home() {
                     <h2>Oriza Sativa</h2>
                     <h3> <i>Front End Developer</i> </h3>
                 </div>
-                <div className="col-lg-6 col-12 d-flex justify-content-center ">
-                    <img src={profile} alt="profile" data-aos="fade-down" />
+                <div className="col-lg-6 col-12 d-flex justify-content-center " data-aos="fade-down">
+                    <img src={profile} alt="profile" />
                 </div>
             </div>
         </section>

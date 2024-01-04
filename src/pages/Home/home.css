@@ -31,6 +31,24 @@
 #home .intro .col-lg-6 img {
     width: 100%;
     height: 480px;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 @media screen and (max-width:1168px) {
