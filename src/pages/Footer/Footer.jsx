@@ -18,8 +18,7 @@ function Footer() {
                 </div>
 
             </section>
-            <p className='m-0 text-center text-light' >© Copy Right by <span class="fw-medium"> Oriza Sativa </span>
-                2023 All Right Reserved, Indonesia</p>
+            <p className='m-0 text-center text-light' >© Copy Right by Oriza Sativa 2023 All Right Reserved, Indonesia</p>
         </div>
 
     )
