@@ -17,3 +17,28 @@
     color: #0EA5E9;
     font-weight: 700;
 }
+
+@media screen and (max-width: 438px) {
+
+    #my-skill .row .text-center p {
+        font-size: 13px;
+    }
+
+    #my-skill .title-section h1 {
+        font-size: 48px;
+    }
+
+    #my-skill .title-section h2 {
+        font-size: 30px;
+    }
+
+    #my-skill .row .text-center h2 {
+        font-size: 24px;
+    }
+
+    #my-skill .row .card .row .col-lg-3 .d-flex h6,
+    #my-skill .row .card .row .col-lg-3 .d-flex p {
+        font-size: 14px;
+    }
+
+}
