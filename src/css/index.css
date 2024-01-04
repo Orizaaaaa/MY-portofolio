@@ -181,6 +181,29 @@ nav .navbar-collapse .navbar-nav .nav-item a.active::after {
     .title-section h2 {
         font-size: 30px;
     }
+
+    nav .portofolio p {
+        font-size: 13px;
+        color: #FFFFFF;
+
+    }
+
+    nav .portofolio b {
+        font-size: 13px;
+
+    }
+}
+
+@media screen and (max-width: 358px) {
+    nav .portofolio p {
+        display: none;
+    }
+
+    nav .portofolio b {
+        font-size: 15px;
+        font-weight: 600;
+
+    }
 }
 
 @media screen and (max-width: 334px) {
