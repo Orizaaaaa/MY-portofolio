@@ -90,12 +90,17 @@
     }
 }
 
-/* @media screen and (max-width: 358px) {
-    #educations .title-section h1 {
-        font-size: 45px;
+@media screen and (max-width: 364px) {
+    #educations .row .col-lg-9 .row .container .timeline-item h5 {
+        font-size: 16px;
     }
 
-    #educations .title-section h2 {
-        font-size: 25px;
+    #educations .row .col-lg-9 .row .container .timeline-item p {
+        font-size: 13px;
     }
-} */
+
+    #educations .row .col-lg-9 .row .container .text-secondary {
+        font-size: 13px;
+    }
+
+}
